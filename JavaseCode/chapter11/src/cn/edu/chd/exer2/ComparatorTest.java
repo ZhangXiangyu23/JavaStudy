@@ -73,6 +73,7 @@ public class ComparatorTest {
         //new一个comparator接口的匿名实现类
         Comparator comparator = new Comparator() {
             //按照商品的名称进行排序
+
             @Override
             public int compare(Object o1, Object o2) {
                 if (o1 == o2){
